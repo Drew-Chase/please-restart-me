@@ -1,4 +1,4 @@
-//#![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
+#![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 use chrono::Duration;
 use std::ffi::OsStr;
 use std::os::windows::ffi::OsStrExt;
