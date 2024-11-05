@@ -5,4 +5,6 @@ edition = "2021"
 
 [dependencies]
 chrono = "0.4.38"
-winapi = { version = "0.3.9", features = ["sysinfoapi", "winuser"] }
+winapi = { version = "0.3.9", features = ["sysinfoapi", "winuser", "shlobj", "combaseapi", "shobjidl", "shobjidl_core", "knownfolders", "objbase", "wtypes", "winerror", "minwindef", "objidl"] }
+libc = "0.2.161"
+mslnk = "0.1.8"
